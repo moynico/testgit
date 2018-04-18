@@ -7,8 +7,10 @@
 		int imc;
 		int alturac;
 		
-		peso = scanf("Ingrese peso: ",&d);
-		altura = scanf("Ingrese altura: ",&d);	
+		printf("Ingrese Peso: ");
+		scanf("%d",&peso);
+		printf("Ingrese Altura: ");
+		scanf("%d",&altura);	
 		
 		alturac = altura*altura;
 		imc = peso/alturac;
