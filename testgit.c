@@ -1,13 +1,14 @@
+#include <stdlib.h>
+#include <stdio.h>
 
-class CalculoIMC{
 	int main (){
 		int peso;
 		int altura;
 		int imc;
 		int alturac;
 		
-		peso = scanf(&d, "Ingrese peso: ");
-		altura = scanf(&d, "Ingrese altura: ");	
+		peso = scanf("Ingrese peso: ",&d);
+		altura = scanf("Ingrese altura: ",&d);	
 		
 		alturac = altura*altura;
 		imc = peso/alturac;
@@ -22,4 +23,3 @@ class CalculoIMC{
 			printf("Peso Normal");
 		}
 	}	
-};
