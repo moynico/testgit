@@ -21,6 +21,5 @@ class CalculoIMC{
 		if(imc<25){
 			printf("Peso Normal");
 		}
-	}
-	
+	}	
 };
